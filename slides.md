@@ -23,7 +23,7 @@ drawings:
 css: unocss
 ---
 
-# Welcome to CALLYBRA!!!!
+# Welcome to BRASLIDE
 
 Presentation slides for developers
 
@@ -49,7 +49,7 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 ---
 
-# What is This?
+# What is This????
 
 Slidev is a slides maker and presenter designed for developers, consist of the following features
 
@@ -394,7 +394,7 @@ hide: false
 ---
 
 ---
-layout: full
+layout: center 
 class: text-center
 ---
 
