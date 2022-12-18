@@ -394,7 +394,7 @@ hide: false
 ---
 
 ---
-layout: center
+layout: full
 class: text-center
 ---
 
