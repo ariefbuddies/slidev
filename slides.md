@@ -119,20 +119,6 @@ image: https://source.unsplash.com/collection/94734566/1920x1080
 
 Use code snippets and get the highlighting directly![^1]
 
-```ts {all|2|1-6|9|all}
-interface User {
-  id: number
-  firstName: string
-  lastName: string
-  role: string
-}
-
-function updateUser(id: number, update: User) {
-  const user = getUser(id)
-  const newUser = { ...user, ...update }
-  saveUser(id, newUser)
-}
-```
 
 <arrow v-click="3" x1="400" y1="420" x2="230" y2="330" color="#564" width="3" arrowSize="1" />
 
@@ -232,15 +218,6 @@ preload: false
 
 Animations are powered by [@vueuse/motion](https://motion.vueuse.org/).
 
-```html
-<div
-  v-motion
-  :initial="{ x: -80 }"
-  :enter="{ x: 0 }">
-  BRASLIDE
-</div>
-```
-
 <div class="w-60 relative mt-6">
   <div class="relative w-40 h-40">
     <img
@@ -270,7 +247,7 @@ Animations are powered by [@vueuse/motion](https://motion.vueuse.org/).
     class="text-5xl absolute top-14 left-40 text-[#2B90B6] -z-1"
     v-motion
     :initial="{ x: -80, opacity: 0}"
-    :enter="{ x: 0, opacity: 1, transition: { delay: 2000, duration: 1000 } }">
+    :enter="{ x: 0, opacity: 1, transition: { delay: 4000, duration: 2000 } }">
     BRASLIDES
   </div>
 </div>
