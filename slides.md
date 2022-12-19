@@ -288,20 +288,6 @@ You can create diagrams / graphs from textual descriptions, directly in your Mar
 
 <div class="grid grid-cols-3 gap-10 pt-4 -mb-6">
 
-```mermaid {scale: 0.5}
-sequenceDiagram
-    Alice->John: Hello John, how are you?
-    Note over Alice,John: A typical interaction
-```
-
-```mermaid {theme: 'neutral', scale: 0.8}
-graph TD
-B[Text] --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
-```
-
-```plantuml {scale: 0.7}
 @startuml
 
 package "Some Group" {
