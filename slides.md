@@ -274,9 +274,8 @@ const final = {
   :enter="{ y: 0, opacity: 1, transition: { delay: 3500 } }">
 
 [Belajar lagi goblog](https://sli.dev/guide/animations.html#motion)
-  
 </div>
-<div
+<div>
   v-motion
   :initial="{ x:75, y: 80, opacity: 0}"
   :enter="{ y: 0, opacity: 1, transition: { delay: 3500 } }">
