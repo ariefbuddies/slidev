@@ -275,6 +275,7 @@ const final = {
 
 [Belajar lagi goblog](https://sli.dev/guide/animations.html#motion)
   
+</div>
 <div
   v-motion
   :initial="{ x:75, y: 80, opacity: 0}"
